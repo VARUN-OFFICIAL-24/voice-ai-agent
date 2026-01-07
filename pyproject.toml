@@ -1,0 +1,19 @@
+[project]
+name = "voice-ai-agent"
+version = "0.1.0"
+description = "A voice-enabled conversational AI system using speech recognition, LLM reasoning, and text-to-speech synthesis."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Your Name" }
+]
+
+dependencies = [
+  "python-dotenv",
+  "speechrecognition",
+  "pyaudio",
+  "pyttsx3",
+  "langchain",
+  "langchain-core",
+  "ollama"
+]
