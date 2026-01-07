@@ -1,0 +1,7 @@
+python-dotenv
+speechrecognition
+pyaudio
+pyttsx3
+langchain
+langchain-core
+ollama
