@@ -61,3 +61,59 @@ git clone https://github.com/your-username/voice-ai-agent.git
 cd voice-ai-agent
 ```
 
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+
+```
+
+
+### 3. Environment configuration
+Create a `.env` file:
+
+```bash
+LLM_API_KEY=your_llm_api_key
+
+```
+---
+
+### 🚀 Running the Bot
+```bash
+python main.py
+
+```
+Once running:
+- Speak into the microphone when prompted
+- The assistant will respond with synthesized speech
+- Conversations flow naturally through voice
+- 
+ ---
+
+ ## 📌 Example Use Cases
+
+- Voice-controlled personal assistant
+- Hands-free AI interaction
+- Accessibility-focused AI systems
+- Demonstration of multimodal AI pipelines
+
+---
+
+## ⚠️ Limitations
+
+- Audio quality depends on microphone and environment
+- Latency depends on speech and model inference speed
+- Not optimized for production-scale deployment
+
+This project is intended for educational and experimental purposes.
+
+---
+
+## 🔮 Future Improvements
+
+- Improved conversation memory
+- Wake-word detection
+- Noise reduction
+- Multi-language support
+- GUI or mobile interface integration
+
+---
